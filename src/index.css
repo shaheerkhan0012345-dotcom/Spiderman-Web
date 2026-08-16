@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --font-anton: 'Anton', 'Impact', sans-serif;
+  --font-bebas: 'Bebas Neue', sans-serif;
+  --font-roboto-condensed: 'Roboto Condensed', sans-serif;
+  --font-oswald: 'Oswald', sans-serif;
+  --font-cinzel: 'Cinzel', serif;
+  --font-bodoni: 'Bodoni Moda', serif;
+  --font-cormorant: 'Cormorant Garamond', serif;
+  --font-syne: 'Syne', sans-serif;
+}
+
+@layer utilities {
+  .font-anton {
+    font-family: 'Anton', 'Impact', sans-serif;
+  }
+  .font-bebas {
+    font-family: 'Bebas Neue', sans-serif;
+  }
+  .font-roboto-condensed {
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  .font-oswald {
+    font-family: 'Oswald', sans-serif;
+  }
+  .font-cinzel {
+    font-family: 'Cinzel', serif;
+  }
+  .font-bodoni {
+    font-family: 'Bodoni Moda', serif;
+  }
+  .font-cormorant {
+    font-family: 'Cormorant Garamond', serif;
+  }
+  .font-syne {
+    font-family: 'Syne', sans-serif;
+  }
+  .text-shadow-hero {
+    text-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  }
+}
